@@ -39,7 +39,52 @@ html, body {
     border-radius: 20px;
   }
 
-/* SEARCH BAR CODE*/
+  .logo-container {
+    padding: -25px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: -15px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 115px;
+    display: block;
+  }
+
+  .page-header a {
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+  }
+  
+  /* Background Of Links In Header While Hoover */
+  .page-header a:hover {
+    background-color: #C0A9BD;
+    color: black;
+  }
+
+  .icons-header {
+    float: right;
+    margin-top: -70px;
+  }
+  
+  .icons-header img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /*Float Left Classes */
+  .headerbutton {
+    float: left;
+  }
+
+  /* END HEADER CONTENT CODE */
+
+/* SEARCH BAR CODE */
 
 .search-container {
     text-align: center;
@@ -66,6 +111,6 @@ html, body {
     width: 140px;
     border-radius: 15px;
   }
-  
 
-  /* END HEADER CONTENT CODE */
+  /* END SEARCH BAR CODE */
+  
