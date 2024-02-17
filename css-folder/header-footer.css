@@ -50,6 +50,13 @@ html, body {
     display: block;
   }
 
+   /* Header Settings */
+   .page-header {
+    overflow: hidden;
+    margin: 8px;
+    height: 145px;
+  }
+
   .page-header a {
     color: black;
     padding: 10px;
@@ -114,3 +121,40 @@ html, body {
 
   /* END SEARCH BAR CODE */
   
+   /* FOOTER CODE*/
+   .page-footer {
+    display: flex;
+  }
+
+  .page-footer a {
+    text-decoration: none;
+    color: #ed0404
+  }
+
+  .flex-footer-left {
+    padding-left: 20px;
+    padding-right: 180px;
+  }
+
+  .flex-footer-left1 {
+    padding-right: 180px;
+  }
+
+  .flex-footer-middle {
+    padding-right: 180px;
+  }
+
+  .flex-footer-right1 {
+    padding-right: 180px;
+  }
+
+  .flex-footer-right img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .flex-footer-left-left, .flex-footer-left, .flex-footer-middle, .flex-footer-right {
+    width: 150px;
+  }
+
+  /* END FOITER CODE*/
