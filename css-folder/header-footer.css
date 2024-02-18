@@ -54,7 +54,7 @@ html, body {
    .page-header {
     overflow: hidden;
     margin: 8px;
-    height: 145px;
+    height: 100px;
   }
 
   .page-header a {
@@ -121,9 +121,10 @@ html, body {
 
   /* END SEARCH BAR CODE */
   
-   /* FOOTER CODE*/
-   .page-footer {
+  /* FOOTER CODE*/
+  .page-footer {
     display: flex;
+    font-size: 17px;
   }
 
   .page-footer a {
