@@ -1,161 +1,175 @@
 /* STICKY HEADER AND FOOTER CODE */
 html, body {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: #045d5d; /* 2. Same as header and footer, does not worj in codepen*/
-  }
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #045d5d; /* 2. Same as header and footer, does not worj in codepen*/
+}
 
-  body {
-    /*min-height: 100%; /* Use if set on container, not body */
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
+body {
+  /*min-height: 100%; /* Use if set on container, not body */
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
 
-  header.page-header, footer.page-footer {
-    flex-grow: 0; /* 0. Only takes the place it needs */
-    flex-shrink: 0;
-    color: #fafafa;
-    background-color: #045d5d;
-    padding: 10px;
-  }
+header.page-header, footer.page-footer {
+  flex-grow: 0; /* 0. Only takes the place it needs */
+  flex-shrink: 0;
+  color: #fafafa;
+  background-color: #045d5d;
+  padding: 10px;
+}
 
-  main.page-body {
-    flex-grow: 1; /* 1. Let main take all available space */
-    padding: 0 10px;
-    background-color: #fafafa;
-    color: black;
-  }
+main.page-body {
+  flex-grow: 1; /* 1. Let main take all available space */
+  padding: 0 10px;
+  background-color: #fafafa;
+  color: black;
+}
 
 /* END STICKY HEADER AND FOOTER CODE */
 
 /* HEADER CONTENT CODE */
 
-  .logo-container img {
-    width: 120px;
-    height: 90px;
-    border-radius: 20px;
-  }
+.logo-container img {
+  width: 120px;
+  height: 90px;
+  border-radius: 20px;
+}
 
-  .logo-container {
-    padding: -25px;
-    border-radius: 30px;
-    margin-left: 20px;
-    margin-top: -15px;
-    float: left;
-    margin-top: -20px;
-    margin-left: 115px;
-    display: block;
-  }
+.logo-container {
+  padding: -50px;
+  padding-left: -250px;
+  border-radius: 30px;
+  margin-left: -10px;
+  margin-top: -15px;
+  float: left;
+  margin-top: -20px;
+  display: block;
+}
 
-   /* Header Settings */
-   .page-header {
-    overflow: hidden;
-    margin: 8px;
-    height: 100px;
-  }
+ /* Header Settings */
+ .page-header {
+  overflow: hidden;
+  margin: 8px;
+  height: 100px;
+}
 
-  .page-header a {
-    color: black;
-    padding: 10px;
-    font-size: 17px;
-    line-height: 25px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    float: left;
-  }
+.page-header a {
+  color: black;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+
+/* Background Of Links In Header While Hoover */
+.page-header a:hover {
+  background-color: #C0A9BD;
+  color: black;
+}
+
+.icons-header {
+  float: right;
+  margin-top: -70px;
+}
+
+.icons-header img {
+  height: 50px;
+  width: 50px;
+}
+
+/*Float Left Classes */
+.headerbutton {
+  float: left;
+}
+
+.header-buttons {
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
   
-  /* Background Of Links In Header While Hoover */
-  .page-header a:hover {
-    background-color: #C0A9BD;
-    color: black;
-  }
+}
 
-  .icons-header {
-    float: right;
-    margin-top: -70px;
-  }
-  
-  .icons-header img {
-    height: 50px;
-    width: 50px;
-  }
-  
-  /*Float Left Classes */
-  .headerbutton {
-    float: left;
-  }
+.header-buttons a {
 
-  /* END HEADER CONTENT CODE */
+}
+
+/* END HEADER CONTENT CODE */
 
 /* SEARCH BAR CODE */
 
 .search-container {
-    text-align: center;
-  }
+  text-align: center;
+margin-top: -60px;
+
+}
+
+/*Input Search Box Code*/
+input[type="text"] {
+  padding: 10px;
+  font-size: 15px;
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 20px;
   
-  /*Input Search Box Code*/
-  input[type="text"] {
-    padding: 10px;
-    font-size: 15px;
-    width: 350px;
-    margin-left: -480px;
-    margin-top: 20px;
-    
-  }
+}
+
+/*Submitt Search Comment Button Code*/
+button {
+  padding: 12px 15px;
+  font-size: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 140px;
+  border-radius: 15px;
   
-  /*Submitt Search Comment Button Code*/
-  button {
-    padding: 12px 15px;
-    font-size: 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 140px;
-    border-radius: 15px;
-  }
+}
 
-  /* END SEARCH BAR CODE */
-  
-  /* FOOTER CODE*/
-  .page-footer {
-    display: flex;
-    font-size: 17px;
-  }
+/* END SEARCH BAR CODE */
 
-  .page-footer a {
-    text-decoration: none;
-    color: #ed0404
-  }
+/* FOOTER CODE*/
+.page-footer {
+  display: flex;
+  font-size: 17px;
+}
 
-  .flex-footer-left {
-    padding-left: 20px;
-    padding-right: 180px;
-  }
+.page-footer a {
+  text-decoration: none;
+  color: #ed0404
+}
 
-  .flex-footer-left1 {
-    padding-right: 180px;
-  }
+.flex-footer-left {
+  padding-left: 20px;
+  padding-right: 180px;
+}
 
-  .flex-footer-middle {
-    padding-right: 180px;
-  }
+.flex-footer-left1 {
+  padding-right: 180px;
+}
 
-  .flex-footer-right1 {
-    padding-right: 180px;
-  }
+.flex-footer-middle {
+  padding-right: 180px;
+}
 
-  .flex-footer-right img {
-    height: 30px;
-    width: 30px;
-  }
+.flex-footer-right1 {
+  padding-right: 180px;
+}
 
-  .flex-footer-left-left, .flex-footer-left, .flex-footer-middle, .flex-footer-right {
-    width: 150px;
-  }
+.flex-footer-right img {
+  height: 30px;
+  width: 30px;
+}
 
-  /* END FOITER CODE*/
+.flex-footer-left-left, .flex-footer-left, .flex-footer-middle, .flex-footer-right {
+  width: 150px;
+}
+
+/* END FOITER CODE*/
