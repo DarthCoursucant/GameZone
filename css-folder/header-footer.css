@@ -173,3 +173,29 @@ button {
 }
 
 /* END FOITER CODE*/
+
+/*Hero Images Code*/
+
+.hero-text-todays-deals {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.shutterstock.com/image-photo/crowd-sports-fans-cheering-during-600nw-1725725788.jpg')
+}
+
+.hero-text-todays-deals {
+  color: #ffffff;
+}
+
+.hero-text-todays-deals {
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-todays-deals {
+  width: 540px;
+  height: 250px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
