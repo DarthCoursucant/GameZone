@@ -22,6 +22,7 @@
   
   .hero-text-todays-deals, .hero-text-months-deals, .hero-text-last-sellers, .hero-text-year-sellers {
     color: #ffffff;
+    text-align: center;
   }
   
   .hero-image-todays-deals, .hero-image-months-deals, .hero-image-last-sellers, .hero-image-year-seller  {
@@ -36,7 +37,7 @@
     width: 540px;
     height: 250px;
     margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-left: 20px;
   }
   
