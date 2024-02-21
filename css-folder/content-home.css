@@ -26,6 +26,7 @@
   
   #banners-button {
     border-radius: 15px;
+    font-size: 20px;
     background-color: #ffffff;
     width: 150px;
     margin-inline: auto;
@@ -52,11 +53,11 @@
   
   .hero-image-todays-deals, .hero-image-months-deals, .hero-image-last-sellers, .hero-image-year-seller  {
     width: 600px;
-    height: 250px;
+    height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
-    margin-left: 70px;
+    margin-left: 40px;
   }
   
   /* END HERO IMAGE CODE */
