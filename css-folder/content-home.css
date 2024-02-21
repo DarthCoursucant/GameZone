@@ -15,16 +15,20 @@
   .hero-image-year-seller {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://news.gsu.edu/files/2022/07/female-gamer.jpg')
   }
+
+  .become-a-pro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.gameinformer.com/sites/default/files/styles/full/public/2022/12/14/8dc30845/hogwarts_legacy_header.jpg')
+  }
   
   /* END HERO IMAGE, IMAGE CODE */
   
   /* HERO IMAGE CODE */
 
-  #flex-baners-top, #flex-banner-top1 {
+  #flex-baners-top, #flex-banner-top1, #become-a-pro {
     display: flex;
   }
   
-  #banners-button {
+  #banners-button, #become-a-pro {
     border-radius: 15px;
     font-size: 20px;
     background-color: #ffffff;
@@ -58,6 +62,11 @@
     margin-bottom: 20px;
     padding-top: 20px;
     margin-left: 40px;
+  }
+
+  #become-a-pro {
+    width: 1400px;
+    height: 250px;
   }
   
   /* END HERO IMAGE CODE */
