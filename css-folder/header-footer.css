@@ -176,15 +176,19 @@ button {
 
 /*Hero Images Code*/
 
-.hero-text-todays-deals {
+.hero-image-todays-deals {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.shutterstock.com/image-photo/crowd-sports-fans-cheering-during-600nw-1725725788.jpg')
 }
 
-.hero-text-todays-deals {
+.hero-image-months-deals {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ichef.bbci.co.uk/images/ic/1920x1080/p06hj5p5.jpg')
+}
+
+.hero-text-todays-deals, .hero-text-months-deals {
   color: #ffffff;
 }
 
-.hero-text-todays-deals {
+.hero-image-todays-deals, .hero-image-months-deals  {
   border-radius: 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,7 +196,7 @@ button {
   position: relative;
 }
 
-.hero-text-todays-deals {
+.hero-image-todays-deals, .hero-image-months-deals  {
   width: 540px;
   height: 250px;
   margin-top: 20px;
