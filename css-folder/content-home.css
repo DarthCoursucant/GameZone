@@ -4,19 +4,19 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.shutterstock.com/image-photo/crowd-sports-fans-cheering-during-600nw-1725725788.jpg')
   }
   
-  .hero-image-months-deals {
+.hero-image-months-deals {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ichef.bbci.co.uk/images/ic/1920x1080/p06hj5p5.jpg')
   }
   
-  .hero-image-last-sellers {
+.hero-image-last-sellers {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.psypost.org/wp-content/uploads/2022/09/girl-playing-video-games-on-her-computer-750x375.jpg')
   }
   
-  .hero-image-year-seller {
+.hero-image-year-seller {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://news.gsu.edu/files/2022/07/female-gamer.jpg')
   }
 
-  .become-a-pro {
+.hero-image-pro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.gameinformer.com/sites/default/files/styles/full/public/2022/12/14/8dc30845/hogwarts_legacy_header.jpg')
   }
   
@@ -24,30 +24,35 @@
   
   /* HERO IMAGE CODE */
 
-  #flex-baners-top, #flex-banner-top1, #become-a-pro {
+  #flex-baners-top, #flex-banner-top1, #flex-become-a-pro {
     display: flex;
   }
   
-  #banners-button, #become-a-pro {
+  #banners-button, #banner-adds {
     border-radius: 15px;
     font-size: 20px;
     background-color: #ffffff;
     width: 150px;
     margin-inline: auto;
     text-decoration: none;
-    color: black;
   }
 
-  #banners-button:hover {
+  #banners-button a, #banner-adds a {
+    text-decoration: none;
+    color: black;
+    margin-inline: auto;
+  }
+
+  #banners-button:hover, #banner-adds:hover {
     background-color: aqua;
   }
 
-  .hero-text-todays-deals, .hero-text-months-deals, .hero-text-last-sellers, .hero-text-year-sellers {
+  .hero-text-todays-deals, .hero-text-months-deals, .hero-text-last-sellers, .hero-text-year-sellers, .hero-image-pro {
     color: #ffffff;
     text-align: center;
   }
   
-  .hero-image-todays-deals, .hero-image-months-deals, .hero-image-last-sellers, .hero-image-year-seller  {
+  .hero-image-todays-deals, .hero-image-months-deals, .hero-image-last-sellers, .hero-image-year-seller, .hero-image-pro  {
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,12 +66,22 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
+  }
+
+  .hero-image-todays-deals, .hero-image-last-sellers {
     margin-left: 40px;
   }
 
-  #become-a-pro {
+  .hero-image-months-deals, .hero-image-year-seller {
+    margin-left: 120px;
+  }
+
+  .hero-image-pro {
     width: 1400px;
-    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 190px;
   }
   
   /* END HERO IMAGE CODE */
