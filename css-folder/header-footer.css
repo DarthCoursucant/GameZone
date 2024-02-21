@@ -106,8 +106,7 @@ main.page-body {
 
 .search-container {
   text-align: center;
-margin-top: -60px;
-
+  margin-top: -60px;
 }
 
 /*Input Search Box Code*/
@@ -117,7 +116,6 @@ input[type="text"] {
   width: 350px;
   margin-left: 20px;
   margin-top: 20px;
-  
 }
 
 /*Submitt Search Comment Button Code*/
@@ -130,7 +128,6 @@ button {
   cursor: pointer;
   width: 140px;
   border-radius: 15px;
-  
 }
 
 /* END SEARCH BAR CODE */
@@ -173,4 +170,4 @@ button {
   width: 150px;
 }
 
-/* END FOITER CODE*/
+/* END FOOTER CODE*/
