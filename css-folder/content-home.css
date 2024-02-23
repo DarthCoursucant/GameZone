@@ -28,7 +28,7 @@
   
   /* HERO IMAGE CODE */
 
-  #flex-baners-top, #flex-banner-top1, #flex-become-a-pro, #flex-funko-add {
+  #flex-baners-top, #flex-banner-top1, #flex-become-a-pro, #flex-funko-add, .flex-buttons-home-page1, .flex-buttons-home-page2 {
     display: flex;
   }
   
@@ -85,7 +85,14 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
+  }
+
+  .hero-image-pro {
     height: 190px;
+  }
+
+  .hero-funko-image {
+    height: 230px;
   }
   
   /* END HERO IMAGE CODE */
