@@ -85,3 +85,28 @@
   }
   
   /* END HERO IMAGE CODE */
+
+  /* ALL TIME FAVORITE PRODUCTS CODE */
+  #customer-favorite-button {
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: red;
+    width: 350px;
+    margin-inline: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #customer-favorite-button a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #customer-favorite-link {
+    border-radius: 20px;
+    background-color: aqua;
+    width: 130px;
+    margin-inline: auto;
+  }
+
+  /* END ALL TIME FAVORITE PRODUCTS CODE */
