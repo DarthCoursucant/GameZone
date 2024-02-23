@@ -125,5 +125,16 @@
   /* END ALL TIME FAVORITE PRODUCTS CODE */
 
   /* CATEOGRY BOXES CODE */
+  #huge-button-home-page {
+    background-color: blue;
+  }
+
+  #normal-buttonns-home-page {
+    background-color: chartreuse;
+  }
+
+  #long-buttons-home-page {
+    background-color: crimson;
+  }
 
   /* END CATEOGRY BOXES CODE */
