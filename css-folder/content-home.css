@@ -19,12 +19,16 @@
 .hero-image-pro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.gameinformer.com/sites/default/files/styles/full/public/2022/12/14/8dc30845/hogwarts_legacy_header.jpg')
   }
+
+.hero-funko-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://collectinsure.com/wp-content/uploads/sites/15/2023/01/AdobeStock_516710477_Editorial_Use_Only.jpeg?w=1024')
+}
   
   /* END HERO IMAGE, IMAGE CODE */
   
   /* HERO IMAGE CODE */
 
-  #flex-baners-top, #flex-banner-top1, #flex-become-a-pro {
+  #flex-baners-top, #flex-banner-top1, #flex-become-a-pro, #flex-funko-add {
     display: flex;
   }
   
@@ -47,12 +51,12 @@
     background-color: aqua;
   }
 
-  .hero-text-todays-deals, .hero-text-months-deals, .hero-text-last-sellers, .hero-text-year-sellers, .hero-image-pro {
+  .hero-text-todays-deals, .hero-text-months-deals, .hero-text-last-sellers, .hero-text-year-sellers, .hero-text-pro, .hero-funko-text {
     color: #ffffff;
     text-align: center;
   }
   
-  .hero-image-todays-deals, .hero-image-months-deals, .hero-image-last-sellers, .hero-image-year-seller, .hero-image-pro  {
+  .hero-image-todays-deals, .hero-image-months-deals, .hero-image-last-sellers, .hero-image-year-seller, .hero-image-pro, .hero-funko-image  {
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +80,7 @@
     margin-left: 120px;
   }
 
-  .hero-image-pro {
+  .hero-image-pro, .hero-funko-image {
     width: 1400px;
     margin-left: 20px;
     margin-right: 20px;
