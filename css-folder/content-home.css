@@ -136,13 +136,14 @@
     border-radius: 20px;
     margin-inline: auto;
     text-align: center;
+    padding-top: 20px;
   }
 
   #huge-button-home-page {
     background-color: blue;
-    height: 150px;
+    height: 130px;
     width: 200px;
-    padding-top: 30px;
+    padding-top: 35px;
   }
 
   #huge-button-home-page a {
