@@ -130,6 +130,12 @@
     display: flex;
   }
 
+  #huge-button-home-page,  #normal-buttonns-home-page, #long-buttons-home-page {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+  }
+
   #huge-button-home-page {
     background-color: blue;
     height: 100px;
